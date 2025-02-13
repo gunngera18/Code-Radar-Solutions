@@ -3,7 +3,7 @@ int main()
 {
     int y;
     scanf("%d",&y);
-     if(y==100)
+     if(y%100==0)
     {
         if(y%400==0)
     {
