@@ -6,10 +6,10 @@ int main()
     if(a>0 && a!=0)
     {
      printf("Positive");
-    }
-    if(a<0 && a!=0)
-    {
+     else
+     {
         printf("Negative");
+    }
     }
     else
     {
