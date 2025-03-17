@@ -3,9 +3,11 @@ int main()
 {
     int a,b,c;
     printf("enter the first side : ");
+    scanf("%d",&a)
      printf("enter the second side : ");
+     scanf("%d",&b);
       printf("enter the third side : ");
-      scanf("%d%d%d",&a,&b,&c);
+      scanf("%d",&c);
       if( a>b+c || b>a+c || c>a+b)
       {
         printf("Valid");
