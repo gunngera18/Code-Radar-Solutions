@@ -2,11 +2,11 @@
 int main()
 {
     int a,b,c;
-    printf("enter the first side : ");
+    printf("enter the first side : \n");
     scanf("%d",&a);
-     printf("enter the second side : ");
+     printf("enter the second side : \n ");
      scanf("%d",&b);
-      printf("enter the third side : ");
+      printf("enter the third side : \n ");
       scanf("%d",&c);
       if( a+b>c && a+c>b && b+c>a)
       {
