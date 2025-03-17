@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,z;
+    int a,b,c;
     printf("enter the first side : ");
      printf("enter the second side : ");
       printf("enter the third side : ");
