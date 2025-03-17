@@ -3,7 +3,11 @@ int main()
 {
 int costprice, sellingprice;
 scanf("%d%d",&costprice,&sellingprice);
-if( costprice > sellingprice)
+if ( sellingprice > costprice )
+{
+    printf("Profit");
+}
+ else if( costprice > sellingprice)
 {
     printf("Loss");
 }
@@ -11,8 +15,8 @@ else if ( sellingprice > costprice )
 {
     printf("Profit");
 }
-else if ( sellingprice == costprice )
+else 
 {
-    printf(" No Profit No Loss");
+    printf("No Profit No Loss");
 }
 }
