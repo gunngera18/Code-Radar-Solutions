@@ -7,7 +7,7 @@ int main()
     else if(c=='B') printf("Good");
     else if(c=='C') printf("Average");
     else if(c=='D') printf(" Below Average");
-    else if(c=='E') printf("Fail");
+    else if(c=='F') printf("Fail");
     else printf("Invalid grade");
 
 
