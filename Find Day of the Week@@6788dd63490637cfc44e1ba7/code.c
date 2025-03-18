@@ -10,5 +10,5 @@ int main()
     else if (x==5) printf("Friday");
     else if (x==6) printf("Saturday");
     else if (x==7) printf("Saturday");
-    else printf("Invalid")
+    else printf("Invalid");
      }
