@@ -11,10 +11,6 @@ if ( sellingprice > costprice )
 {
     printf("Loss");
 }
-else if ( sellingprice > costprice )
-{
-    printf("Profit");
-}
 else 
 {
     printf("No Profit No Loss");
