@@ -9,6 +9,6 @@ int main()
     else if(x==4) printf("Thursday");
     else if(x==5) printf("Friday");
     else if(x==6) printf("Saturday");
-    else if(x==7) printf("Saturday");
+    else if(x==7) printf("Sunday");
     else printf("Invalid");
      }
